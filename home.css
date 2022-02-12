@@ -188,3 +188,11 @@ body{
 ul{
     list-style: none;
 }
+.F-bottom{
+    background-color: #ff9900;
+    width: 60%;
+    left: 18rem;
+    position: absolute;
+    color: #222222;
+    border-radius: .2rem;
+}
