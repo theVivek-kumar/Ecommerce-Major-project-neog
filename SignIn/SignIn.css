@@ -62,11 +62,6 @@ body {
 .navbar-input-search {
     align-items: center;
     display: flex;
-
-
-
-
-
 }
 
 .input-text-navbar {
@@ -103,7 +98,7 @@ body {
     width: 30%;
     box-shadow: 0px 0px 10px rgb(143, 143, 143);
     height: 20rem;
-    padding: 1.5rem;
+    padding: 3rem;
     background-color: #ffffff;
     height: auto;
 
