@@ -196,3 +196,43 @@ ul{
     color: #222222;
     border-radius: .2rem;
 }
+/*-----------------------------------------card---------------------------------------*/
+.home-card-Md-body{
+    background-color: #ffffff;
+    display: flex;
+    width: 40%;
+     box-shadow: 0px 0px 10px #868585;
+    padding: .3rem;
+    margin: 1rem;
+    
+}
+.card-side{
+    display: flex;
+    flex-direction: column;
+    
+}
+.home-card-container-md {
+  
+   display: flex;
+   justify-content: center; 
+}
+.image-card{
+    width: 80%;
+    height: auto;
+    border-radius: .2rem;
+    margin-left: .3rem;
+
+}
+.card-heading-md{
+   
+}
+.card-heading-md-2{
+    margin-top: 1rem;
+    font-weight: bolder;
+    background-color: #ff9900;
+    padding: .3rem;
+    
+}
+.card-para-md{
+    margin-top: 1rem;
+}
