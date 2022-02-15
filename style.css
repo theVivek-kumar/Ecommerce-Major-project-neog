@@ -5,13 +5,19 @@
 
 }
 
+
 body {
     background-color: #ebebeb;
 }
 
 :root {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(32, 32, 32);
+    --font-color: #282a36;
+    --BACKGROUND-color : #f39494;
+    --PRIMERY-color : #312546;
+    --SECONDERY-color : rgb(255, 196, 1);
+    --FOOTER-color : #00ffff88;
+   
 }
 
 .navbar-md-head {
@@ -131,15 +137,7 @@ body {
      font-size: 70px;
  }
 
- /* .container div h3::after{
-    content: "";
-    position: absolute;
-    background: rgb(23, 125, 165);
-    height: 3px;
-    width: 130px;
-    top: 51%;
-    left: 15%;
-  } */
+
 
  .container div p {
      margin: 20px 0;
