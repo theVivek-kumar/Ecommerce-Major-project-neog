@@ -23,6 +23,10 @@ body {
     height: auto;
 
 }
+.navbar-head-logo a{
+    text-decoration: none;
+    color: #ece9f2;
+}
 
 .navbar-icons {
     display: flex;
