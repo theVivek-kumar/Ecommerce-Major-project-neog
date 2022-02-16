@@ -1,3 +1,4 @@
+@import url(/my-cart/mycart.css);
 * {
     margin: 0;
     padding: 0;
@@ -92,4 +93,68 @@ body {
     border: none;
     border-radius: 5px 5px 5px 5px;
 
+}
+/***************************************card******************/
+.card-body{
+    width: auto;
+    height: auto;
+    display: flex;
+    background-color: white;
+    padding: 1rem;
+    gap: 1rem;
+    align-items: center;
+    border-radius: 10px;
+    margin: 1rem;
+}
+.image-wish{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.card-body-item-info{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    
+}
+.card-body-item-info h3{
+    display: flex;
+    padding-top: 1rem;
+    color: #252525;
+    justify-content: center;
+    align-items: center;
+
+}
+.card-body-item-info p{
+    display: flex;
+    padding-top: 1rem;
+    color: #252525;
+    font-size: 1rem;
+    font-weight: 600;
+     justify-content: center;
+     align-items: center;
+
+
+}
+.card-header{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+.card-body-item{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.card-heading-md-2{
+    border: none;
+    color: #2a2a2b;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
 }
