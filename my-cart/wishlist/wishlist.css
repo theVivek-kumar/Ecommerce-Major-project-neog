@@ -1,3 +1,4 @@
+@import url(/my-cart/mycart.css);
 * {
     margin: 0;
     padding: 0;
@@ -5,15 +6,20 @@
 
 }
 
+
 body {
     background-color: #ebebeb;
 }
 
 :root {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(32, 32, 32);
-}
+    --font-color: #282a36;
+    --BACKGROUND-color: #f39494;
+    --PRIMARY-color: #312546;
+    --SECONDERY-color: rgb(255, 196, 1);
+    --FOOTER-color: #00ffff88;
 
+}
 .navbar-md-head {
     display: flex;
     justify-content: space-around;
@@ -22,10 +28,6 @@ body {
     flex-wrap: wrap;
     height: auto;
 
-}
-.navbar-head-logo a{
-    text-decoration: none;
-    color: #ece9f2;
 }
 
 .navbar-icons {
@@ -36,7 +38,7 @@ body {
 }
 
 .fa-search {
-    padding: 4px;
+    padding: .4rem;
     font-size: 1.6rem;
     background-color: rgb(255, 255, 255);
     color: rgb(95, 95, 95);
@@ -92,85 +94,74 @@ body {
     border-radius: 5px 5px 5px 5px;
 
 }
-/****************************card**********************************/
-.home-card-Md-body {
-    background-color: #ffffff;
+/***************************************card******************/
+.card-body{
+    width: auto;
+    height: auto;
     display: flex;
-    width: 40%;
-    box-shadow: 0px 0px 10px #868585;
-    padding: .3rem;
+    padding: 1rem;
+    gap: 1rem;
+    align-items: center;
+    border-radius: 10px;
     margin: 1rem;
-
 }
-
-.card-side {
+.image-wish{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.card-body-item-info{
     display: flex;
     flex-direction: column;
+    padding-top: 1rem;
+    
+}
+.card-body-item-info h3{
+    display: flex;
+    padding-top: 1rem;
+    color: #252525;
+    justify-content: center;
+    align-items: center;
 
 }
+.card-body-item-info p{
+    display: flex;
+    padding-top: 1rem;
+    color: #252525;
+    font-size: 1rem;
+    font-weight: 600;
+     justify-content: center;
+     align-items: center;
 
-.home-card-container-md {
 
+}
+.card-header{
+    margin: auto;
     display: flex;
     justify-content: center;
+    margin: 2rem;
 }
-
-.image-card {
-    width: 80%;
-    height: auto;
-    border-radius: .2rem;
-    margin-left: .3rem;
-}
-
-.card-heading-md-2 {
-    margin-top: 1rem;
-    font-weight: bolder;
-    background-color: #ff9900;
-    padding: .3rem;
-    display: flex;
-    justify-content: center;
-
-}
-
-.card-para-md {
-    margin-top: 1rem;
-}
-.mycart-heading{
-    display: flex;
-    justify-content: center;
+.card-body-item{
     padding: 1rem;
-}
-.items-quantity{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #b3b3b3;
+    border-radius: 10px;
     display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding: .1rem;
-
-}
-.number{
-    border: 1px solid gray;
-    width: 2rem;
-    border-radius: .3rem;
-    align-items: center;
-    display: flex;
+    flex-direction: column;
     justify-content: center;
-
-
+    
 }
-.second-card{
-     background-color: #ffffff;
-     display: flex;
-     width: 24%;
-     height: auto;
-     box-shadow: 0px 0px 10px #868585;
-     padding: .8rem;
-     margin: 1rem;
-
-}
-.discount-chart{
+.card-heading-md-2{
+    border: none;
+    color: #2a2a2b;
+    height: 3rem;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
 }
-.discount-chart h5{
-    color: blue;
+.card-body-item :hover{
+    
+    border: 1px solid rgba(255, 115, 0, 0.308);
+    border-radius: 10px;
 }

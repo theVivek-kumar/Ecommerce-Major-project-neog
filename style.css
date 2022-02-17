@@ -5,13 +5,19 @@
 
 }
 
+
 body {
     background-color: #ebebeb;
 }
 
 :root {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(32, 32, 32);
+    --font-color: #282a36;
+    --BACKGROUND-color : #f39494;
+    --PRIMERY-color : #312546;
+    --SECONDERY-color : rgb(255, 196, 1);
+    --FOOTER-color : #00ffff88;
+   
 }
 
 .navbar-md-head {
@@ -131,15 +137,7 @@ body {
      font-size: 70px;
  }
 
- /* .container div h3::after{
-    content: "";
-    position: absolute;
-    background: rgb(23, 125, 165);
-    height: 3px;
-    width: 130px;
-    top: 51%;
-    left: 15%;
-  } */
+
 
  .container div p {
      margin: 20px 0;
@@ -205,5 +203,93 @@ body {
      right: 28%;
      opacity: .1;
      z-index: -1;
+ }
+ /*******************************************************************mycart*************************************/
+ .home-card-Md-body {
+     background-color: #ffffff;
+     display: flex;
+     width: 40%;
+     box-shadow: 0px 0px 10px #868585;
+     padding: .3rem;
+     margin: 1rem;
+
+ }
+
+ .card-side {
+     display: flex;
+     flex-direction: column;
+
+ }
+
+ .home-card-container-md {
+
+     display: flex;
+     justify-content: center;
+ }
+
+ .image-card {
+     width: 80%;
+     height: auto;
+     border-radius: .2rem;
+     margin-left: .3rem;
+ }
+
+ .card-heading-md-2 {
+     margin-top: 1rem;
+     font-weight: bolder;
+     background-color: #ff9900;
+     padding: .3rem;
+     display: flex;
+     justify-content: center;
+
+ }
+
+ .card-para-md {
+     margin-top: 1rem;
+ }
+
+ .mycart-heading {
+     display: flex;
+     justify-content: center;
+     padding: 1rem;
+ }
+
+ .items-quantity {
+     display: flex;
+     align-items: center;
+     gap: 1rem;
+     padding: .1rem;
+
+ }
+
+ .number {
+     border: 1px solid gray;
+     width: 2rem;
+     border-radius: .3rem;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+
+
+ }
+
+ .second-card {
+     background-color: #ffffff;
+     display: flex;
+     width: 24%;
+     height: auto;
+     box-shadow: 0px 0px 10px #868585;
+     padding: .8rem;
+     margin: 1rem;
+
+ }
+
+ .discount-chart {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .discount-chart h5 {
+     color: blue;
  }
  
