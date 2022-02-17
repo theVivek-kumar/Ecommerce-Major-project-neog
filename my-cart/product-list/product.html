@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="product.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d5eef1e966.js" crossorigin="anonymous"></script>
+    <title>Product-list</title>
+</head>
+<body>
+    <nav class="navbar-head-container">
+        <div class="navbar-md-head">
+    
+            <div class="navbar-head-logo">
+                <h2>MY WEBSITE</h2>
+            </div>
+            <div class="navbar-input-search">
+                <input type="text" placeholder="Search" class="input-text-navbar"> <button class="search-button"><i
+                        class="fas fa-search"></i></button>
+            </div>
+    
+            <div class="navbar-login-btn">
+                <a href="/login/login.html">Login</a>
+    
+            </div>
+            <div class="navbar-icons">
+                <a href="/my-cart/mycart.html"><i class="fas fa-cart-arrow-down"></i></a>
+                <a href="/my-cart/wishlist/wishlist.html"><i class="fas fa-heart"></i></a>
+            </div>
+    
+        </div>
+    </nav>
+    <div class="main-list">
+        <ul>
+            <li>Top Order</li>
+            <li>Fashion</li>
+            <li>Mobile</li>
+            <li>Top Offers</li>
+            <li>Beauty</li>
+            <li>Appliances</li>
+            <li>Home</li>
+            <li>Top Offers</li>
+            <li>Bra</li>
+            <li>T-Shirts</li>
+            <li></li>
+        </ul>
+    </div>
+    <!-- main content -->
+    <div class="product-page-main mg-3-bot">
+        <button class="show-filter-section-btn btn primary-text-btn-lg">Filter <i class="fas fa-chevron-right"></i></button>
+        <form id="filter-section" class="filter-section">
+            <button class="filter-close-btn"><i class="far fa-times-circle"></i></button>
+            <div class="filter flex-row flex-justify-space-between">
+                <h2>Filter</h2>
+                <button type="reset">Clear</button>
+            </div>
+            <div class="price flex-col">
+                <h2>Price</h2>
+                <!-- range input label -->
+                <div class="price-label flex-row flex-justify-space-between">
+                    <p>
+                        <1k< /p>
+                            <p>
+                                <2k< /p>
+                                    <p>
+                                        <5k< /p>
+                                            <p>>10k
+                                            </p>
+                </div>
+                <!-- range input field -->
+                <div class="range-input">
+                    <label for="volume"><input type="range" min="5000" max="20000" value="11000" name="volume" step="1000"
+                            oninput="vol.value = this.value" />
+                        Rs. <output id="vol">11000</output>
+                    </label>
+                </div>
+            </div>
+            <div class="category">
+                <h2>Category</h2>
+                <div>
+                    <!-- checkbox input field -->
+                    <div class="checkbox-input">
+                        <input type="checkbox" name="check" checked /><label for="check">T-shirts</label>
+                    </div>
+                    <!-- checkbox input field -->
+                    <div class="checkbox-input">
+                        <input type="checkbox" name="check" /><label for="check">Jeans</label>
+                    </div>
+                    <!-- checkbox input field -->
+                    <div class="checkbox-input">
+                        <input type="checkbox" name="check" /><label for="check">Jeckets</label>
+                    </div>
+                    <!-- checkbox input field -->
+                    <div class="checkbox-input">
+                        <input type="checkbox" name="check" /><label for="check">Accessories</label>
+                    </div>
+                </div>
+            </div>
+            <div class="brand">
+                <h2>Brand</h2>
+                <div>
+                    <!-- checkbox input field -->
+                    <div class="checkbox-input">
+                        <input type="checkbox" name="check" /><label for="check">Nike</label>
+                    </div>
+                    <!-- checkbox input field -->
+                    <div class="checkbox-input">
+                        <input type="checkbox" name="check" /><label for="check">Disel</label>
+                    </div>
+                    <!-- checkbox input field -->
+                    <div class="checkbox-input">
+                        <input type="checkbox" name="check" checked /><label for="check">Spyker</label>
+                    </div>
+                </div>
+            </div>
+            <div class="rating">
+                <h2>Ratings</h2>
+                <!-- radio input field -->
+                <div class="radio-input">
+                    <input type="radio" name="radio" /><label for="radio">4 star & above</label>
+                </div>
+                <!-- radio input field -->
+                <div class="radio-input">
+                    <input type="radio" name="radio" /><label for="radio">3 star & above</label>
+                </div>
+                <!-- radio input field -->
+                <div class="radio-input">
+                    <input type="radio" name="radio" /><label for="radio">2 star & above</label>
+                </div>
+                <!-- radio input field -->
+                <div class="radio-input">
+                    <input type="radio" name="radio" /><label for="radio">1 star & above</label>
+                </div>
+            </div>
+            <div class="sort">
+                <h2>Sort by</h2>
+                <!-- radio input field -->
+                <div class="radio-input">
+                    <input type="radio" name="sort" /><label for="radio">Price - Low to High</label>
+                </div>
+                <!-- radio input field -->
+                <div class="radio-input">
+                    <input type="radio" name="sort" /><label for="radio">Price - High to Low</label>
+                </div>
+            </div>
+        </form>
+
+    
+</body>
+</html>
