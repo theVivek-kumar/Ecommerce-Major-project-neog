@@ -1,5 +1,19 @@
 @import url(/style.css);
 @import url(/my-cart/home/home.css);
+:root{
+         font-family: 'Segoe UI',
+         Tahoma,
+         Geneva,
+         Verdana,
+         sans-serif;
+         --font-color: #282a36;
+         --BACKGROUND-color: #f39494;
+         --PRIMERY-color: rgb(12, 109, 165);
+         --SECONDERY-color: #fe9900;
+         --FOOTER-color: #202020;
+         --font-color: white;
+
+}
 
 /*procuct*/
 .product-page-main {
@@ -135,7 +149,7 @@ form>div>button {
 /*********************************CARD-VERTICAL***********************/
 .card-vertical{
     width: 30%;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--font-color);
     padding: 1rem;
     
 }
@@ -160,8 +174,8 @@ form>div>button {
 .add-cart{
     border: none;
     padding: .5rem;
-    background-color: #fe9900;
-    color: rgb(39, 39, 39);
+    background-color:var(--SECONDERY-color);
+    color: va;
     font-weight: 600;
     border-radius: 10px;
     
