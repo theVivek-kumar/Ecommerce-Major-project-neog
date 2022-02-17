@@ -1,3 +1,4 @@
+@import url(/style.css);
 *{
     margin: 0; padding: 0; box-sizing: border-box;
 
@@ -12,7 +13,7 @@ body{
 .navbar-md-head{
     display: flex;
     justify-content: space-around;
-    background-color: #482880;
+    background-color:var(--PRIMERY-color);
     width: 100%;
     height: auto;
 
@@ -51,19 +52,13 @@ body{
 .navbar-input-search{
     align-items: center;
     display: flex;
-   
-    
- 
-    
-
 }
 .input-text-navbar{
     border: 1px solid rgb(255, 255, 255);
     padding: .5rem;
     width: 25rem;
     border-radius: 5px 0px 0px 5px;
-
-    
+   
 
 }
 .fa-cart-arrow-down {
@@ -89,7 +84,7 @@ body{
     margin: 1rem;
 }
 .main-content-card{
-    background-color: aqua;
+    
     height: auto;
     margin: 2rem;
     display: flex;
@@ -167,7 +162,7 @@ body{
 .footer{
     width: 100%;
     height: 20rem;
-    background-color: #482880;
+    background-color:var(--FOOTER-color);
     display: flex;
 }
 .footer-header-bottom{
@@ -231,4 +226,8 @@ ul{
 }
 .card-para-md{
     margin-top: 1rem;
+}
+/***********************************btn*****************/
+.navbar-login-btn a{
+    text-decoration: none;
 }

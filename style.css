@@ -14,9 +14,9 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --font-color: #282a36;
     --BACKGROUND-color : #f39494;
-    --PRIMERY-color : #312546;
+    --PRIMERY-color : rgb(12, 109, 165);
     --SECONDERY-color : rgb(255, 196, 1);
-    --FOOTER-color : #00ffff88;
+    --FOOTER-color : #202020;
    
 }
 
@@ -40,11 +40,14 @@ body {
     padding: 4px;
     font-size: 1.6rem;
     background-color: rgb(255, 255, 255);
-    color: rgb(95, 95, 95);
+    color: rgb(255, 255, 255);
 }
 
 .navbar-head-logo {
-    color: #292929;
+    color: #135a91;
+    font-size: larger;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     align-items: center;
 }
@@ -85,10 +88,6 @@ body {
 .navbar-input-search {
     align-items: center;
     display: flex;
-
-
-
-
 
 }
 .navbar-login-signin{
@@ -134,7 +133,7 @@ body {
  }
 
  .container div h3 {
-     font-size: 70px;
+     font-size: 5rem;
  }
 
 
@@ -142,16 +141,32 @@ body {
  .container div p {
      margin: 20px 0;
  }
-
+.h3-hero-content {
+    color: #222222;
+    text-shadow: 2px 2px 5px rgb(95, 95, 95);
+    
+}
  .container div a {
      padding: 15px;
-     background: #333;
+     background: rgb(51, 51, 51);
      margin: 20px 0;
      display: inline-block;
      color: #fff;
      border-radius: 10px;
      transition: 1.5s;
  }
+ .Secondary-btn{
+      padding: 15px;
+      margin: 20px 0;
+      border:1px solid #135a91;
+      display: inline-block;
+      color: rgb(34, 34, 34) !important;
+      background-color: #e7e7e7 !important;
+      border-radius: 10px;
+      transition: 1.5s;
+
+ }
+ 
 
  .container div a:hover {
      background-color: dodgerblue;
@@ -203,6 +218,10 @@ body {
      right: 28%;
      opacity: .1;
      z-index: -1;
+ }
+ .navbar-head-logo a {
+     text-decoration: none;
+     color: #ece9f2;
  }
  /*******************************************************************mycart*************************************/
  .home-card-Md-body {

@@ -110,7 +110,7 @@ body {
     justify-content: center;
 }
 
-.Login-input {
+.Login-btn {
     background-color: #3b82f6;
     width: 100%;
     text-decoration: none;
@@ -161,4 +161,8 @@ label {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.navbar-login-btn a{
+    text-decoration: none;
+    
 }
