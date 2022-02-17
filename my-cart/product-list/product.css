@@ -34,7 +34,7 @@
 }
 
 .filter-section {
-    position: sticky;
+    position: static;
     top: 3.97rem;
     padding-top: 0;
     margin-top: 0;
