@@ -159,13 +159,20 @@ form>div>button {
 }
 .add-cart{
     border: none;
-    padding: 5px;
-    background-color: rgb(255, 187, 0);
-    color: rgb(255, 255, 255);
+    padding: .5rem;
+    background-color: #fe9900;
+    color: rgb(39, 39, 39);
     font-weight: 600;
+    border-radius: 10px;
+    
 }
 .products{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+.card-cta-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
 }
