@@ -47,7 +47,7 @@
         </ul>
     </div>
     <!-- main content -->
-    <div class="product-page-main mg-3-bot">
+       <div class="product-page-main mg-3-bot">
         <button class="show-filter-section-btn btn primary-text-btn-lg">Filter <i class="fas fa-chevron-right"></i></button>
         <form id="filter-section" class="filter-section">
             <button class="filter-close-btn"><i class="far fa-times-circle"></i></button>
@@ -59,20 +59,17 @@
                 <h2>Price</h2>
                 <!-- range input label -->
                 <div class="price-label flex-row flex-justify-space-between">
-                    <p>
-                        <1k< /p>
-                            <p>
-                                <2k< /p>
-                                    <p>
-                                        <5k< /p>
-                                            <p>>10k
-                                            </p>
+                       <p>
+                        1k</p> <p>
+                            2k</p> <p>
+                                3k</p> <p>10k
+                    </p>
                 </div>
                 <!-- range input field -->
                 <div class="range-input">
-                    <label for="volume"><input type="range" min="5000" max="20000" value="11000" name="volume" step="1000"
-                            oninput="vol.value = this.value" />
-                        Rs. <output id="vol">11000</output>
+                    <label class="slider" for="volume"><input type="range" min="1000" max="2000" value="3000" name="volume"
+                            step="3000" oninput="vol.value = this.value" />
+                       Rs. <output id="vol">1000</output>
                     </label>
                 </div>
             </div>
@@ -81,7 +78,7 @@
                 <div>
                     <!-- checkbox input field -->
                     <div class="checkbox-input">
-                        <input type="checkbox" name="check" checked /><label for="check">T-shirts</label>
+                        <input type="checkbox" name="check" checked/><label for="check">T-shirts</label>
                     </div>
                     <!-- checkbox input field -->
                     <div class="checkbox-input">
@@ -89,7 +86,7 @@
                     </div>
                     <!-- checkbox input field -->
                     <div class="checkbox-input">
-                        <input type="checkbox" name="check" /><label for="check">Jeckets</label>
+                        <input type="checkbox" name="check"/><label for="check">Jeckets</label>
                     </div>
                     <!-- checkbox input field -->
                     <div class="checkbox-input">
