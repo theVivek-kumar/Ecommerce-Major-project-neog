@@ -62,11 +62,6 @@ body {
 .navbar-input-search {
     align-items: center;
     display: flex;
-
-
-
-
-
 }
 
 .input-text-navbar {
@@ -91,11 +86,10 @@ body {
 .search-button {
     border: none;
     border-radius: 0px 0px 5px 5px;
-
 }
 
 /****************************************login*************************************/
-.login-container-FP {
+.login-container-form {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -106,8 +100,6 @@ body {
     padding: 1.5rem;
     background-color: #ffffff;
     height: auto;
-
-
 }
 
 .input-check-btn {
@@ -116,7 +108,6 @@ body {
     align-items: center;
     margin: 1rem;
     justify-content: center;
-
 }
 
 .Login-input {
@@ -141,7 +132,7 @@ label {
 
 }
 
-.login-Fp-header {
+.login-form-header {
     display: flex;
     justify-content: center;
     color: #444444;
