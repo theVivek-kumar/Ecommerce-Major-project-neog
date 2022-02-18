@@ -311,4 +311,26 @@ body {
  .discount-chart h5 {
      color: blue;
  }
- 
+ /*------------------------icon-css---------*/
+ .badge--number {
+     position: relative;
+     top: -15px;
+     right: -80%;
+     aspect-ratio: 1/1;
+     font-size: 12px;
+     font-weight: 600;
+     border-radius: 30px;
+     background-color: #ffffff;
+     color: var(--BLACK-100);
+     padding: 2px;
+     border: 2px solid var(--WHITE);
+ }
+
+ .fa-sign-out-alt {
+     display: flex;
+     color: var(--text-color);
+     font-size: 1.5rem;
+     align-items: center;
+     margin-top: 1rem;
+     margin-left: 2rem;
+ }
