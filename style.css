@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +12,8 @@ body {
 }
 
 :root {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --font-color: #282a36;
     --BACKGROUND-color : #f39494;
     --PRIMERY-color : rgb(12, 109, 165);
@@ -412,5 +414,18 @@ body {
      border: none;
      border-radius: 5px;
 
+ }
+ .badge--number {
+     position: relative;
+     top: -15px;
+     right: -80%;
+     aspect-ratio: 1/1;
+     font-size: 12px;
+     font-weight: 600;
+     border-radius: 30px;
+     background-color: #ffffff;
+     color: var(--BLACK-100);
+     padding: 2px;
+     border: 2px solid var(--WHITE);
  }
  /*-------------------------------------navbar-----------*/

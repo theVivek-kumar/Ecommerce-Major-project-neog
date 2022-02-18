@@ -1,1 +1,6 @@
 @import url(/style.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Merriweather:wght@300&family=Montserrat:wght@100;300;500;700;900&family=Zen+Antique&family=Zen+Kurenaido&display=swap');
+:root{
+    font-family: 'Montserrat',
+    sans-serif;
+}
