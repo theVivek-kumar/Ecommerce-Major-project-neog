@@ -4,3 +4,42 @@
     font-family: 'Montserrat',
     sans-serif;
 }
+.log-out-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;;
+    align-items: center;
+    background-color: var(--text-color);
+    width: 40%;
+    margin: auto;
+    padding: 1rem;
+    box-shadow: 2px 2px 7px rgb(190, 190, 190);
+   
+}
+.log-out-container-body-btn{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+.log-out-container-body-text{
+    padding: 1rem;
+   
+}
+.log-out-container-body-btn-yes{
+    border: none;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: var(--icons-color);
+    color: var(--text-color);
+    font-size: 1rem;
+}
+.log-out-container-body-btn-no{
+      border: none;
+      padding: 1rem;
+      border-radius: 10px;
+      background-color: var(--no-btn-color);
+      color: var(--text-color);
+      font-size: 1rem;
+
+}
