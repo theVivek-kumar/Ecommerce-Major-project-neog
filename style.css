@@ -52,7 +52,7 @@ body {
     align-items: center;
 }
 
-.navbar-login-btn {
+.navbar-login-btn-index {
     background-color: rgb(255, 196, 1);
     padding: .8rem;
     color: #312546;
@@ -90,7 +90,7 @@ body {
     display: flex;
 
 }
-.navbar-login-signin{
+.navbar-login-signin-index {
     display: flex;
     gap: 2rem;
     padding-right: 2rem;
