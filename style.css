@@ -428,4 +428,12 @@ body {
      padding: 2px;
      border: 2px solid var(--WHITE);
  }
+ .fa-sign-out-alt{
+     display: flex;
+     color: var(--text-color);
+     font-size: 1.5rem;
+     align-items: center;
+     margin-top: 1rem;
+     margin-left: 2rem;
+ }
  /*-------------------------------------navbar-----------*/
