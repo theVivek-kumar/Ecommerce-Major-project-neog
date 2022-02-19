@@ -1,8 +1,23 @@
 @import url(/style.css);
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Merriweather:wght@300&family=Montserrat:wght@100;300;500;700;900&family=Zen+Antique&family=Zen+Kurenaido&display=swap');
-:root{
-    font-family: 'Montserrat',
-    sans-serif;
+:root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --MAIN-HEADING: rgb(32, 32, 32);
+    --FONT-COLOR: #282a36;
+    --BACKGROUND-color: #f39494;
+    --PRIMERY-color: rgb(12, 109, 165);
+    --SECONDERY-color: rgb(255, 196, 1);
+    --FOOTER-color: #202020;
+    --red-icon-color: red;
+    --white-text-color: white;
+    --WHITE-DULL: #ece9f2;
+    -WHITE: #ffffff;
+    --GRAY-80: #333333;
+    --GREY-60: #929191;
+    --GRAY-40: #8f8e8e;
+    --GRAY-50: #7e7a7a;
+    --GRAY-20: #C4C4C4;
+
 }
 .log-out-container{
     display: flex;
@@ -14,7 +29,7 @@
     margin: auto;
     margin-top: 15%;
     padding: 1rem;
-    box-shadow: 2px 2px 7px rgb(190, 190, 190);
+    box-shadow: 2px 2px 7px var(--GRAY-40);
    
 }
 .log-out-container-body-btn{
