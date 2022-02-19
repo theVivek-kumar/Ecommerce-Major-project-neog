@@ -33,7 +33,7 @@ body {
 .navbar-md-head {
     display: flex;
     justify-content: space-around;
-    background-color: #482880;
+    background-color: var(--PRIMERY-color);
     width: auto;
     flex-wrap: wrap;
     height: auto;
@@ -51,7 +51,7 @@ body {
     padding: 4px;
     font-size: 1.6rem;
     background-color: var(--white-text-color);
-    color: rgb(95, 95, 95);
+    color: var(--GRAY-40);
 }
 
 .navbar-head-logo {
