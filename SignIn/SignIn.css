@@ -10,8 +10,15 @@ body {
 }
 
 :root {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(32, 32, 32);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        --main-heading: rgb(32, 32, 32);
+        --font-color: #282a36;
+        --BACKGROUND-color: #f39494;
+        --PRIMERY-color: rgb(12, 109, 165);
+        --SECONDERY-color: rgb(255, 196, 1);
+        --FOOTER-color: #202020;
+        --red-icon-color:red;
+        --white-text-color:white;
 }
 
 .navbar-md-head {
@@ -34,7 +41,7 @@ body {
 .fa-search {
     padding: 4px;
     font-size: 1.6rem;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--white-text-color);
     color: rgb(95, 95, 95);
 }
 
@@ -65,7 +72,7 @@ body {
 }
 
 .input-text-navbar {
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid var(--white-text-color);
     padding: .5rem;
     width: 25rem;
     border-radius: 5px 0px 0px 5px;
@@ -80,7 +87,7 @@ body {
 .fa-heart {
     margin: 1rem;
     font-size: 1.3rem;
-    color: red;
+    color: var(--red-icon-color);
 }
 
 .search-button {
@@ -96,10 +103,10 @@ body {
     flex-direction: column;
     margin: auto;
     width: 30%;
-    box-shadow: 0px 0px 10px rgb(143, 143, 143);
+    box-shadow: 0px 0px 10px var(--white-text-color);
     height: 20rem;
     padding: 3rem;
-    background-color: #ffffff;
+    background-color: var(--t);
     height: auto;
 
 
@@ -115,7 +122,7 @@ body {
 }
 
 .Login-input {
-    background-color: #3b82f6;
+    background-color: var(--PRIMERY-color);
     width: 100%;
     text-decoration: none;
     display: flex;
@@ -139,7 +146,7 @@ label {
 .login-Fp-header {
     display: flex;
     justify-content: center;
-    color: #444444;
+    color:var(--FOOTER-color);
 }
 
 .input-lg {
@@ -147,7 +154,7 @@ label {
     padding: .5rem;
     align-items: center;
     display: flex;
-    border: 1px solid rgb(184, 184, 184);
+    border: 1px solid var(--FOOTER-color);
     margin-top: .2rem;
     border-radius: 4px;
 
