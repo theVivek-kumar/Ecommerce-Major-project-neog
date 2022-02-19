@@ -284,7 +284,7 @@ body {
  }
 
  .number {
-     border: 1px solid gray;
+     border: 1px solid var(--font-color);
      width: 2rem;
      border-radius: .3rem;
      align-items: center;
@@ -295,7 +295,7 @@ body {
  }
 
  .second-card {
-     background-color: #ffffff;
+     background-color: var(--text-color);
      display: flex;
      width: 24%;
      height: auto;
@@ -362,8 +362,8 @@ body {
  .fa-search {
      padding: 4px;
      font-size: 1.6rem;
-     background-color: rgb(255, 255, 255);
-     color: rgb(95, 95, 95);
+     background-color: var(--text-color);
+     color: var(--FOOTER-color);
  }
 
  .navbar-head-logo {
@@ -424,7 +424,7 @@ body {
      font-size: 12px;
      font-weight: 600;
      border-radius: 30px;
-     background-color: #ffffff;
+     background-color: var(--text-color);
      color: var(--BLACK-100);
      padding: 2px;
      border: 2px solid var(--WHITE);
