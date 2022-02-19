@@ -21,6 +21,13 @@ body {
         --red-icon-color:red;
         --white-text-color:white;
         --WHITE-DULL:#ece9f2;
+        -WHITE: #ffffff;
+        --GRAY-80: #333333;
+        --GREY-60: #929191;
+        --GRAY-40: #8f8e8e;
+        --GRAY-50: #7e7a7a;
+        --GRAY-20: #C4C4C4;
+        
 }
 
 .navbar-md-head {
@@ -105,10 +112,10 @@ body {
     flex-direction: column;
     margin: auto;
     width: 30%;
-    box-shadow: 0px 0px 10px var(--white-text-color);
+    box-shadow: 0px 0px 10px var(--GRAY-40);
     height: 20rem;
     padding: 3rem;
-    background-color: var(--t);
+    background-color: var(--WHITE-DULL);
     height: auto;
 
 
@@ -131,7 +138,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: .4rem;
-    color: var(--WHITE-DULL);
+    color: #ebebeb;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     margin-top: 1rem;
