@@ -79,6 +79,11 @@ body {
     align-items: center;
     display: flex;
 }
+.fa-search{
+    font-size: 1.3rem;
+    padding: .4rem;
+    border-radius: 0px 5px 5px 0px;
+}
 
 .input-text-navbar {
     border: 1px solid var(--white-text-color);
