@@ -311,7 +311,7 @@ body {
  }
 
  .discount-chart h5 {
-     color: blue;
+     color: rgb(63, 63, 63);
  }
  /*------------------------icon-css---------*/
  .badge--number {
@@ -326,6 +326,12 @@ body {
      color: var(--BLACK-100);
      padding: 2px;
      border: 2px solid var(--WHITE);
+    
+ }
+ .navbar-icons a{
+      text-decoration: none;
+      color: rgb(255, 87, 87);
+
  }
 
  .fa-sign-out-alt {
@@ -382,3 +388,17 @@ body {
     padding: rem;
     
 }
+/*---------card-rating-*/
+.badge-rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: var(--WHITE);
+    background-color: green;
+    width: 3.5rem;
+    padding: 0.2rem;
+    font-size: 1rem;
+    border-radius: 3px;
+}
+
