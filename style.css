@@ -402,3 +402,11 @@ body {
     border-radius: 3px;
 }
 
+/*partition*/
+.partition{
+    width: 60rem;
+    border: 1px solid ghostwhite;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+}
