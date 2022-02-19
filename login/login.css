@@ -37,11 +37,12 @@ body {
 
 }
 
+
 .fa-search {
-    padding: 4px;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
+    padding: .4rem;
     background-color: rgb(255, 255, 255);
-    color: rgb(95, 95, 95);
+    border-radius: 0px 5px 5px 0px;
 }
 
 .navbar-head-logo {

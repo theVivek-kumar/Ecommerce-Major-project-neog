@@ -40,8 +40,13 @@ body {
 }
 
 .fa-search {
-    padding: 4px;
-    font-size: 1.6rem;
+   
+    padding: .45rem;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 1.7rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
     background-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
 }
@@ -70,11 +75,11 @@ body {
     justify-content: center;
     margin-top: .6rem;
 }
-.signin{
-     background-color: #ebebeb;
+.navbar-login-btn-signin {
+     background-color: transparent;
      border: 1px solid #ffffff;
      padding: .8rem;
-     color: #222222;
+     color: #ffffff;
      font-weight: 600;
      font-size: 1.1rem;
      margin: .3rem;
@@ -87,6 +92,9 @@ body {
      margin-top: .6rem;
 
 }
+.navbar-login-btn-signin a{
+    color: var(--text-color);
+}
 
 .navbar-input-search {
     align-items: center;
@@ -98,6 +106,10 @@ body {
     gap: 2rem;
     padding-right: 2rem;
     
+}
+.navbar-login-btn {
+    width: 4rem;
+
 }
 
 .input-text-navbar {
@@ -441,7 +453,7 @@ body {
      margin-left: 2rem;
  }
  /*-------------------------------------navbar-----------*/
-=======
+
  /*------------------------icon-css---------*/
  .badge--number {
      position: relative;
@@ -538,5 +550,22 @@ body {
     height: 3rem;
     display: flex;
     justify-content: center;
+}
+/*footer*/
+.image-footer-ft{
+    width: 60%;
+  
+    bottom: 8rem;
+
+}
+.image-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*create new acc*/
+.login-create-acc a{
+    text-decoration: none;
+    color: var(--PRIMERY-color);
 }
 

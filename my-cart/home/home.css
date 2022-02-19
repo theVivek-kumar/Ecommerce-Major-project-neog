@@ -9,6 +9,16 @@ body{
 :root{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(32, 32, 32);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        --font-color: #282a36;
+        --BACKGROUND-color: #f39494;
+        --PRIMERY-color: rgba(12, 109, 165, 0.842);
+        --SECONDERY-color: rgb(255, 196, 1);
+        --FOOTER-color: #202020;
+        --font-color-cta: white;
+
+    
+
 }
 .navbar-md-head{
     display: flex;
@@ -31,7 +41,7 @@ body{
     color: rgb(95, 95, 95);
 }
 .navbar-head-logo{
-    color: #ece9f2;
+    color:var(--font-color-cta);
     display: flex;
     align-items: center;
 }
@@ -64,7 +74,7 @@ body{
 .fa-cart-arrow-down {
     margin: 1rem;
     font-size: 1.3rem;
-    color: #ece9f2;
+    color: var(--font-color-cta);
 }
 .fa-heart{
     margin: 1rem;
