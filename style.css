@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +12,8 @@ body {
 }
 
 :root {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --font-color: #282a36;
     --BACKGROUND-color : #f39494;
     --PRIMERY-color : rgba(12, 109, 165, 0.842);
@@ -284,7 +286,7 @@ body {
  }
 
  .number {
-     border: 1px solid gray;
+     border: 1px solid var(--font-color);
      width: 2rem;
      border-radius: .3rem;
      align-items: center;
@@ -295,7 +297,7 @@ body {
  }
 
  .second-card {
-     background-color: #ffffff;
+     background-color: var(--text-color);
      display: flex;
      width: 24%;
      height: auto;
@@ -313,6 +315,133 @@ body {
  .discount-chart h5 {
      color: rgb(63, 63, 63);
  }
+
+ /*----------------------------------------------navbar---------------------------------*/
+ :root {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     --font-color: #282a36;
+     --BACKGROUND-color: #f39494;
+     --PRIMERY-color: rgb(12, 109, 165);
+     --SECONDERY-color: rgb(255, 196, 1);
+     --FOOTER-color: #202020;
+     --icons-color: #fe0000a9;
+     --text-color: #ffffff;
+     --no-btn-color:rgba(0, 255, 0, 0.877);
+     --text-color-login-btn:#140330;
+
+ }
+
+ body {
+     background-color: #ebebeb;
+ }
+
+ :root {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: rgb(32, 32, 32);
+ }
+
+ .navbar-md-head {
+     display: flex;
+     justify-content: space-around;
+     background-color: var(--PRIMERY-color);
+     width: auto;
+     flex-wrap: wrap;
+     height: auto;
+
+ }
+
+ .navbar-head-logo a {
+     text-decoration: none;
+     color: var(--text-color);
+ }
+
+ .navbar-icons {
+     display: flex;
+     justify-content: space-around;
+
+
+ }
+
+ .fa-search {
+     padding: 4px;
+     font-size: 1.6rem;
+     background-color: var(--text-color);
+     color: var(--FOOTER-color);
+ }
+
+ .navbar-head-logo {
+     color: var(--text-color);
+     display: flex;
+     align-items: center;
+ }
+
+ .navbar-login-btn {
+     background-color: var(--SECONDERY-color);
+     padding: .5rem;
+     color: #312546;
+     font-weight: 600;
+     font-size: 1.1rem;
+     margin: .3rem;
+     width: 8%;
+     height: 2rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: .6rem;
+ }
+
+ .navbar-input-search {
+     align-items: center;
+     display: flex;
+ }
+
+ .input-text-navbar {
+     border: 1px solid var(--text-color);
+     padding: .5rem;
+     width: 25rem;
+     border-radius: 5px 0px 0px 5px;
+ }
+
+ .fa-cart-arrow-down {
+     margin: 1rem;
+     font-size: 1.3rem;
+     color: var(--text-color);
+ }
+
+ .fa-heart {
+     margin: 1rem;
+     font-size: 1.3rem;
+     color: var(--icons-color);
+ }
+
+ .search-button {
+     border: none;
+     border-radius: 5px;
+
+ }
+ .badge--number {
+     position: relative;
+     top: -15px;
+     right: -80%;
+     aspect-ratio: 1/1;
+     font-size: 12px;
+     font-weight: 600;
+     border-radius: 30px;
+     background-color: var(--text-color);
+     color: var(--BLACK-100);
+     padding: 2px;
+     border: 2px solid var(--WHITE);
+ }
+ .fa-sign-out-alt{
+     display: flex;
+     color: var(--text-color);
+     font-size: 1.5rem;
+     align-items: center;
+     margin-top: 1rem;
+     margin-left: 2rem;
+ }
+ /*-------------------------------------navbar-----------*/
+=======
  /*------------------------icon-css---------*/
  .badge--number {
      position: relative;
@@ -410,3 +539,4 @@ body {
     display: flex;
     justify-content: center;
 }
+
