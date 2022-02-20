@@ -1,4 +1,5 @@
 @import url(/style.css);
+@import url(/SignIn/SignIn.css);
 *{
     margin: 0; padding: 0; box-sizing: border-box;
 
@@ -7,8 +8,8 @@ body{
     background-color: #ebebeb;
 }
 :root{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(32, 32, 32);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(32, 32, 32);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         --font-color: #282a36;
         --BACKGROUND-color: #f39494;
@@ -34,12 +35,7 @@ body{
     
     
 }
-.fa-search {
-    padding: 4px;
-    font-size: 1.6rem;
-    background-color: rgb(255, 255, 255);
-    color: rgb(95, 95, 95);
-}
+
 .navbar-head-logo{
     color:var(--font-color-cta);
     display: flex;
@@ -100,11 +96,16 @@ body{
     display: flex;
     justify-content: center;
 }
+.card-img-Md{
+    display: flex;
+    flex-direction: column;
+}
 .card-md-heading{
     display: flex;
     justify-content: center;
     margin-bottom: -1rem;
     margin-left: 2rem;
+    margin-top: 1rem;
     
 }
 .card-md-heading h3{
@@ -132,11 +133,7 @@ body{
     justify-content: space-around;
 
 }
-.search-button{
-    border: none;
-    border-radius: 0px 0px 5px 5px;
 
-}
 .main-list ul{
     display: flex;
     background-color: #241a33;
@@ -206,9 +203,9 @@ ul{
     background-color: #ffffff;
     display: flex;
     width: 40%;
-     box-shadow: 0px 0px 10px #868585;
-    padding: .3rem;
-    margin: 1rem;
+    box-shadow: 0px 0px 10px #868585;
+    padding: 1rem;
+    margin: 3rem;
     
 }
 .card-side{
@@ -237,6 +234,8 @@ ul{
 .card-para-md{
     margin-top: 1rem;
 }
+
+
 /***********************************btn*****************/
 .navbar-login-btn a{
     text-decoration: none;

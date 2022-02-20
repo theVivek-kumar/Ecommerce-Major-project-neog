@@ -90,7 +90,7 @@ body {
 .fa-cart-arrow-down {
     margin: 1rem;
     font-size: 1.3rem;
-    color: #ece9f2;
+    color: white;
 }
 
 .fa-heart {
@@ -142,6 +142,10 @@ body {
     display: flex;
     justify-content: center;
 
+}
+.card--delivery--msg {
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .card-para-md {

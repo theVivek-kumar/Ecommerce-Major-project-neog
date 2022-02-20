@@ -17,6 +17,15 @@ body {
     --PRIMERY-color: rgb(12, 109, 165);
     --SECONDERY-color: rgb(255, 196, 1);
     --FOOTER-color: #202020;
+       --white-text-color:white;
+       --WHITE-DULL:#ece9f2;
+       --WHITE: #ffffff;
+       --GRAY-80: #333333;
+       --GREY-60: #929191;
+       --GRAY-40: #8f8e8e;
+       --GRAY-50: #7e7a7a;
+       --GRAY-20: #C4C4C4;
+
 
 }
 
@@ -36,14 +45,20 @@ body {
 
 
 }
+.search-button {
+    border: none;
+    border-radius: 5px;
 
-
+}
 .fa-search {
     font-size: 1.3rem;
     padding: .4rem;
-    background-color: rgb(255, 255, 255);
+    color: var(--GRAY-80);
     border-radius: 0px 5px 5px 0px;
 }
+
+
+
 
 .navbar-head-logo {
     color: #ece9f2;
@@ -81,7 +96,7 @@ body {
 .fa-cart-arrow-down {
     margin: 1rem;
     font-size: 1.3rem;
-    color: #ece9f2;
+    color: var(--WHITE);
 }
 
 .fa-heart {
@@ -90,10 +105,6 @@ body {
     color: red;
 }
 
-.search-button {
-    border: none;
-    border-radius: 0px 0px 5px 5px;
-}
 
 /****************************************login*************************************/
 .login-container-form {

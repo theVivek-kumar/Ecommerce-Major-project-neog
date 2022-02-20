@@ -126,7 +126,7 @@ form>div>h2,
 
 .filter-section input[type="checkbox"],
 .filter-section input[type="radio"] {
-    width: 1rem;
+    width: 1.5rem;
 }
 
 form>div>button {
@@ -143,8 +143,8 @@ form>div>button {
     
 }
 .slider{
-    width: 100%;
-    padding: .2rem;
+    width: 4rem;
+    padding: .5rem;
 }
 /*********************************CARD-VERTICAL***********************/
 .card-vertical{
@@ -191,4 +191,10 @@ form>div>button {
 }
 .card-price{
     color: green;
+}
+.products h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+   
 }
