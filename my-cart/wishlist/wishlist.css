@@ -98,6 +98,18 @@ body {
     border-radius: 10px;
     margin: 1rem;
 }
+.wishlist--badge {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 2px;
+    top: -6px;
+    width: 1rem;
+    height: 1rem;
+    background-color: var(--WHITE);
+    color: #fff;
+}
 .image-wish{
     width: 100%;
     display: flex;
@@ -141,6 +153,8 @@ body {
     box-shadow: 0px 0px 10px #b3b3b3;
     border-radius: 10px;
     display: flex;
+    height: 30%;
+    width: 30%;
     flex-direction: column;
     justify-content: center;
     
