@@ -1,5 +1,5 @@
 # Ecommerce-Major-project
-XOXO SHOP Ecommerce is an all in one place for purchasing different types of cloths and and Women's Accessories . Live Link :https://determined-hopper-38bbc6.netlify.app/
+XOXO SHOP Ecommerce is an all in one place for purchasing different types of cloths and and Women's Accessories . Live Link :[XOXO SHOP](https://determined-hopper-38bbc6.netlify.app/)
 ## Technology Used
 - html
 - css
