@@ -95,6 +95,10 @@ form>div>h2,
     margin-bottom: 0.6rem;
     font-weight: 400;
 }
+.slider-bar{
+    display: flex;
+    flex-direction: column;
+}
 
 .price>div {
     margin-bottom: -0.6rem;
@@ -143,7 +147,7 @@ form>div>button {
     
 }
 .slider{
-    width: 4rem;
+    width: 100%;
     padding: .5rem;
 }
 /*********************************CARD-VERTICAL***********************/

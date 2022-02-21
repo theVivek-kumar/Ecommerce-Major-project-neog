@@ -354,7 +354,7 @@ body {
 
  .navbar-md-head {
      display: flex;
-     justify-content: space-around;
+     justify-content:  space-around;
      background-color: var(--PRIMERY-color);
      width: auto;
      flex-wrap: wrap;
