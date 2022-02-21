@@ -568,4 +568,30 @@ body {
     text-decoration: none;
     color: var(--PRIMERY-color);
 }
+/*--*/
+body {
+    background-color: var(--BACKGROUND_COLOR);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--BACKGROUND_COL-2CHOICE);
+    color: #303030 !important;
+
+
+}
+
+
+.dark-mode {
+    background-color: var(--font-color);
+    color: #ffffff !important;
+}
+.fa-moon{
+    font-size: 1.5rem;
+   padding-top: .8rem;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    color: #ffffff !important;
+
+}
 
